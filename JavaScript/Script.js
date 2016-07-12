@@ -1,56 +1,84 @@
+				function setVars(){
+				Vars = {
+				sizedElems: document.getElementsByClassName('parCont'),
+
+				parallaxElems : [
+
+					document.getElementById('layer_1'), 
+					document.getElementById('background')],
+					
+
+
+				backgrounds :document.getElementsByClassName('bg_img'),
+				}};			
+
+
+
 			function setSize(){
-				var item = document.getElementsByClassName('parCont');
+				var item = Vars.sizedElems;
 				var h = window.innerHeight;
 				var i = 0;
+
+
+
 				do {
 					item[i].style.height = h+"px";
 					i++;
 				}while(item[i] != null);
+
+				console.log(item[0].style.height);
 			}
 
 
 			function parallax(item,ofset){
-				var elem = item;
-				var thing = document.getElementById(elem);
+				//var thing = item;
+				//var item = parallaxElems_1;
 				var desp = -(window.pageYOffset/ofset);
-				thing.style.top = desp+"px";
+				item.style.top = desp+"px";
 			}
 			
 			function resizeBackground(item){
-				var elem = item;
 				var w = window.innerWidth;
 				var h = window.innerHeight;
-				var back = document.getElementById(elem);
+				var back = item;
 
 				if(w/h < 640/428){
-					back.style.height = "130%";
+					back.style.height = "100%";
 					back.style.width = "auto";
 				}else {
-
-					back.style.width = "130%";
+					back.style.height = "auto";
+					back.style.width = "100%";
 				}
 			}
 
-			//(function(){
+			(function(){
+
+
+
 				function parallaxScroll(){
-				parallax('layer_1',3);
-				parallax('background',1);
+					parallax(Vars.parallaxElems[0],2);
+					parallax(Vars.parallaxElems[1],8);
 				}
 
 				function res(){
 					setSize();
 					parallaxScroll()
-					resizeBackground('bg_img_1');
-					resizeBackground('bg_img_2');
+					resizeBackground(Vars.backgrounds[0]);
+					resizeBackground(Vars.backgrounds[1]);
+				}
+
+				function set(){
+					setVars();
+					res();
 				}
 
 
 
 			
-				window.onload = res;
+				window.onload = set;
 				window.addEventListener("scroll", parallaxScroll, false);
 				window.addEventListener("resize", res, true);
 
 
-			//})();
+			})();
 			
