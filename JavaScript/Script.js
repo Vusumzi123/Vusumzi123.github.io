@@ -1,32 +1,30 @@
-				function setVars(){
+			function setVars(){
+				
+				var nodeList = document.getElementsByClassName('parCont');
+				var bgNodes = document.getElementsByClassName('bg_img');
+
 				Vars = {
-				sizedElems: document.getElementsByClassName('parCont'),
+				
+					sizedElems: Array.prototype.slice.call(nodeList,0),
 
-				parallaxElems : [
+					parallaxElems : [
 
-					document.getElementById('layer_1'), 
-					document.getElementById('background')],
+						document.getElementById('layer_1'), 
+						document.getElementById('background')
+					],
 					
 
 
-				backgrounds :document.getElementsByClassName('bg_img'),
-				}};			
+					backgrounds: Array.prototype.slice.call(bgNodes,0),
+				}
+			};			
 
 
 
-			function setSize(){
-				var item = Vars.sizedElems;
+			function setSize(item){
+
 				var h = window.innerHeight;
-				var i = 0;
-
-
-
-				do {
-					item[i].style.height = h+"px";
-					i++;
-				}while(item[i] != null);
-
-				console.log(item[0].style.height);
+					item.style.height = h+"px";
 			}
 
 
@@ -61,10 +59,10 @@
 				}
 
 				function res(){
-					setSize();
-					parallaxScroll()
-					resizeBackground(Vars.backgrounds[0]);
-					resizeBackground(Vars.backgrounds[1]);
+
+					Vars.sizedElems.forEach(setSize);
+					parallaxScroll();
+					Vars.backgrounds.forEach(resizeBackground);
 				}
 
 				function set(){
