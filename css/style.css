@@ -21,6 +21,7 @@
 
 html body{
   height: 100%;
+  overflow-x: hidden;
 }
 
 body{
@@ -157,7 +158,7 @@ box-shadow: 0px 0px 29px 10px rgba(0,0,0,0.92);
 #main_logo{
 
     margin: 0;
-    min-width: 430px;
+    min-width: 130px;
     max-width: 850px;
 	  padding: 23px;
 	  opacity: 0.87;
@@ -193,10 +194,11 @@ box-shadow: 0px 0px 29px 10px rgba(0,0,0,0.92);
 
 #article-row{
     max-width: 940px;
+    width: auto;
 }
 
 #article-row #side-img{
-  padding: 34px;
+  padding: 14px;
   display: -webkit-flex; /* Safari */
     -webkit-justify-content: center; /* Safari 6.1+ */
     display: flex;
@@ -226,6 +228,5 @@ box-shadow: 0px 0px 29px 10px rgba(0,0,0,0.92);
 .parallax-title{
   font-family: 'Lemonada', cursive;
   color: white;
-  font-size: 4.2em;
-  padding: 45px;
+  font-size: 2.2em;
 }
