@@ -6,3 +6,10 @@
        url('introheadr-base.otf') format('woff'), /* Pretty Modern Browsers */
        url('introheadr-base.otf')  format('truetype'), /* Safari, Android, iOS */
 }
+
+@font-face {
+  font-family: 'Znikomit';
+  src: url('Znikomit.otf'); /* IE9 Compat Modes */
+  src: url('Znikomit.otf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Znikomit.otf') format('otf'), /* Super Modern Browsers */
+}

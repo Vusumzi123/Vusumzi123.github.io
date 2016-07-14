@@ -34,7 +34,7 @@
 
 				function parallaxScroll(){
 					parallax(Vars.parallaxElems[0],1);
-					parallax(Vars.parallaxElems[1],23);
+					parallax(Vars.parallaxElems[1],2);
 				}
 
 				function scrl(){

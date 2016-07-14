@@ -19,6 +19,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/3a36ec92ee.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lemonada' rel='stylesheet' type='text/css'>
 
 
@@ -60,9 +61,9 @@
 
     						<ul class="nav navbar-nav navbar-right">
       							<li class="active"><a href="#">Inicio</a></li>
-      							<li><a href="#">Nosotros</a></li>
-      							<li><a href="#">Contacto</a></li>
-      							<li><a href="#">Blog</a></li>
+      							<li><a class="nav-elem" href="#">Nosotros</a></li>
+      							<li><a class="nav-elem" href="#">Contacto</a></li>
+      							<li><a class="nav-elem" href="#">Blog</a></li>
     						</ul>
     					</div>
 					</div>
@@ -86,30 +87,58 @@
 							</div>
 						</header>
 						<div id="sectParallax_1" class="sectParallax_class">
-							<article id="about_Article" class="container-fluid bg-3 text-center">
-								<h2>Nuestra Cerveza</h2>
-								<h3>¡Nos apasiona la cerveza!</h3>
-								<p>Somos una cervecería artesanal formada por un grupo de amigos de toda la vida, para nosotros lo más importante es compartir, y no sabemos de una mejor forma de compartir un momento que con una cerveza en la mano.</p>
-								<p>Cervecería 402 comenzó desde cero y como todo proyecto que inicia de ese modo, tenemos siempre en mente la calidad de nuestros productos, para nosotros la mejor cerveza es la que compartimos con los ‘cuates’ y nada mejor que hacerlo con una cerveza llena de sabor, aroma, y calidad para satisfacer tanto a los gustos más exigentes y conocedores, como a los más casuales y aventureros.</p>
-							</article>
+							<div class="row" id="article-row">
+								<div id="side-img" class="col-sm-4">
+									<img src="image/Beer-Square.jpg" alt="" class="img-responsive img-circle"/>
+								</div>
+								<article id="about_Article" class="col-sm-8">
+									<h2>Nuestra Cerveza</h2>
+									<h3>¡Nos apasiona!</h3>
+									<div id="deco-line"></div>
+									<p>Somos una cervecería artesanal formada por un grupo de amigos de toda la vida. Para nosotros lo más importante es compartir, y no sabemos de una mejor forma de compartir un momento que con una cerveza en la mano.</p>
+									<p>Cervecería 402 comenzó desde cero y como todo proyecto que inicia de ese modo, tenemos siempre en mente la calidad de nuestros productos, para nosotros la mejor cerveza es la que compartimos con los ‘cuates’ y nada mejor que hacerlo con una cerveza llena de sabor, aroma, y calidad para satisfacer tanto a los gustos más exigentes y conocedores, como a los más casuales y aventureros.</p>
+								</article>
+							</div>
+
 						</div>
 
 						<div id="sectParallax_2" class="sectParallax_class">
+							<div>
+								<h1 class="parallax-title">Nuestras Cervezas!</h1>
+							</div>
 
 						</div>
-					</section>
 
+						<div id="sectParallax_1" class="sectParallax_class">
+							<div class="row" id="article-row">
+								<div id="side-img" class="col-sm-4">
+									<img src="image/Beer-Square.jpg" alt="" class="img-responsive img-circle"/>
+								</div>
+								<article id="about_Article" class="col-sm-8">
+									<h2>Nuestra Cerveza</h2>
+									<h3>¡Nos apasiona la cerveza!</h3>
+									<div id="deco-line"></div>
+									<p>Somos una cervecería artesanal formada por un grupo de amigos de toda la vida, para nosotros lo más importante es compartir, y no sabemos de una mejor forma de compartir un momento que con una cerveza en la mano.</p>
+									<p>Cervecería 402 comenzó desde cero y como todo proyecto que inicia de ese modo, tenemos siempre en mente la calidad de nuestros productos, para nosotros la mejor cerveza es la que compartimos con los ‘cuates’ y nada mejor que hacerlo con una cerveza llena de sabor, aroma, y calidad para satisfacer tanto a los gustos más exigentes y conocedores, como a los más casuales y aventureros.</p>
+								</article>
+							</div>
+
+						</div>
+
+					</section>
 
 
 					<section id="layer_2" class="layer">
 						<header class="parCont">
 							<div id="main_logo_container" >
-								<div id="sec_logo_container">
 									<img src="image/mono_402.svg" alt="" id="main_logo" />
-								</div>
-
+									<button type="button" name="button" id="brand_btn">Cervezas</button>
 							</div>
 						</header>
+
+						<div class="parCont" id="parallax-img-1">
+							<h1 class="hidden">Cerveceria 402</h1>
+						</div>
 					</section>
 			</div>
 
