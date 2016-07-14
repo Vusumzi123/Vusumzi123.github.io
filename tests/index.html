@@ -1,130 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
 
-	<script type="text/javascript">
-		
-	function setSize(){
-		var item = document.getElementsByClassName('parCont');
-		var h = window.innerHeight;
-		var i = 0;
-		do {
-			item[i].style.height = h+"px";
-			i++;
-			console.log(i);
-		}while(item[i] != null);
-	}
 
-	window.onload = setSize;
+<style>
 
-	</script>
 
-<style type="text/css">
-
-*{
-	margin: 0;
-	border: 0;
-}
-
-body{
-
-	background-color: #262626;
+div{
 
 }
 
-		
-#layer_1{
+.background{
+	height: 100vh;
+	background-image: url("https://images8.alphacoders.com/413/413078.jpg");
+	background-size: cover;
+	background-position: center center;
 
-	width: 100%;
-	position: absolute;
-
-}
-
-#sectParallax{
-	background-color: white;
-	width: 100%;
-	margin: 0;
-	border: 0;
-	padding: 0;
+	-webkit-filter:brightness(50%);
+	-ms-filter:brightness(50%);
+	filter: brightness(50%);
 }
 
 
-#main_logo_container{
-	height: 100%;
-
-	background-color: red;
-
-	max-width: 420px;
-	min-width: 60px;
-	margin: auto;   
-
-	position: relative;
-}
-
-
-#sec_logo_container{
-
-
-	margin: 0;
-	border: 0;
-	padding: 0;
-	width: 100%;
-	margin: auto;
-
-	background-color: blue;
-
-	position: absolute;
-
-	top: 50%;
-
-	transform: translateY(-50%);
-
-
-
-
-}
-
-
-
-#main_logo{
-
-	width: 100%;
-
-    margin: auto;
-    
-	padding: 0;
-	opacity: 0.87;
-
-}
-
-
-
-	</style>
+</style>
 
 </head>
 <body>
 
-<div>
-	
+	<div>
+		<h1 class="background" >hola</h1>
+	</div>
 
-	<section id="layer_1">
-		<header class="parCont" style="background-color: green;">
-			<div id="main_logo_container" >
-				<div id="sec_logo_container">
-					<img src="../image/mono_402.svg" alt="" id="main_logo" />
-				</div>
-				
-			</div>
-		</header>
-		<div class="parCont" id="sectParallax">
-			<h1>Cerveceria 402</h1>
-		</div>
-		
-	</section>
-
-
-</div>
 
 </body>
 </html>
