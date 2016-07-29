@@ -3,13 +3,15 @@ function setVars(){
     parallaxElems : [
       $('#main_logo_container'),
       //$('#scroled_ellems'),
-    ]
+    ],
+    navBar : $('.navbar-default')
   }
 };
 
 function dynamicVars(){
   Dvars = {
     wHeight : $(window).height(),
+    wWidth : $(window).width(),
     wScroll : $(window).scrollTop(),
   }
 };
@@ -21,18 +23,27 @@ function parallax(item, offset) {
 
 $(document).ready(function() {
   setVars();
+  dynamicVars();
 
-  $(window).scroll(function() {
+  if (Dvars.wWidth>770) {
+    vars.navBar.css({'position' : 'fixed'});
+    $(window).scroll(function() {
 
-    dynamicVars();
-    parallax(vars.parallaxElems[0],2);
-    //parallax(vars.parallaxElems[1],0);
+      dynamicVars();
+      parallax(vars.parallaxElems[0],2);
+      //parallax(vars.parallaxElems[1],0);
 
-    if(Dvars.wScroll>125){
-      $('.navbar-default').addClass('navbar-default_2');
-    }else {
-      $('.navbar-default').removeClass('navbar-default_2');
-    }
+      if(Dvars.wScroll>125){
+        vars.navBar.addClass('navbar-default_2');
+      }else {
+        vars.navBar.removeClass('navbar-default_2');
+      }
+    });
+  }else {
+    vars.navBar.addClass('navbar-default_2');
+  }
 
-  });
+
+
+
 });

@@ -10,6 +10,7 @@
 
 @import url("skeleton.css");
 @import url("fonts/fonts.css");
+@import url("navBar.css");
 
 *{
   margin: 0;
@@ -51,45 +52,9 @@ body{
   display: none;
 }
 
-
-#staticNav{
-	position: fixed;
-	display: block;
-
-	padding-top: -12px;
-	width: 100%;
-	z-index: 9;
-
-}
-
-.navbar-brand h1{
-	display: none;
-}
-
-nav{
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 1.3em;
-    font-stretch: condensed;
-}
-
-nav .nav-elem{
-  padding: 24px;
-
-}
-
-nav #logo{
-	height:70px;
-	margin-top:-24px;
-  font-weight: bold;
-
-}
-
-
 .layer{
-
 	width: 100%;
 	position: absolute;
-
 }
 
 
@@ -110,7 +75,6 @@ min-height: 50vh;
 -webkit-box-shadow: 0px 0px 29px 10px rgba(0,0,0,0.92);
 -moz-box-shadow: 0px 0px 29px 10px rgba(0,0,0,0.92);
 box-shadow: 0px 0px 29px 10px rgba(0,0,0,0.92);
-
 }
 
 
@@ -133,7 +97,6 @@ box-shadow: 0px 0px 29px 10px rgba(0,0,0,0.92);
 }
 
 #main_logo_container{
-
   border: 0;
   padding: 0;
   height: 100%;
@@ -178,6 +141,10 @@ box-shadow: 0px 0px 29px 10px rgba(0,0,0,0.92);
   font-size: 23px;
   margin: 0;
   border: 1px solid white;
+  display: block;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 #about_Article{
