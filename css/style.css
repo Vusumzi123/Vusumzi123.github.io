@@ -20,12 +20,11 @@
   font-size: 1.1em;
   font: inherit;
   vertical-align: baseline;
-  overflow-x: hidden;
 }
 
 html, body{
   height: 100%;
-  overflow-x: hidden;
+
 }
 
 body{
