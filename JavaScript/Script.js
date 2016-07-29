@@ -18,10 +18,10 @@
 			}
 
 			function parallax(item,ofset){
-				//var thing = item;
-				//var item = parallaxElems_1;
-				//var desp = -(window.pageYOffset/ofset);
-				item.style.top = -(Dvars.hOfset/ofset)+"px";
+
+				$('#layer_2').css({
+					'transform' : 'translateY(' +Dvars.wHeight/2+ '%)'
+				});
 			}
 
 			function scrollNav(){
@@ -51,6 +51,7 @@
 				function set(){
 					setVars();
 					res();
+					scrl();
 				}
 
 			function main(){
