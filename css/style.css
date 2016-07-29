@@ -55,12 +55,6 @@ body{
   display: none;
 }
 
-.layer{
-	width: 100%;
-	position: absolute;
-}
-
-
 .centered_class{
 width: 100%;
 display: -webkit-flex; /* Safari */
@@ -92,7 +86,7 @@ box-shadow: 0px 0px 29px 10px rgba(0,0,0,0.92);
 }
 
 #beer_persicope{
-  background-color: -webkit-transparent;
+
 }
 
 .article-container{
@@ -180,14 +174,6 @@ box-shadow: 0px 0px 29px 10px rgba(0,0,0,0.92);
   background-color: #d88c26;
 }
 
-#parallax-img-1{
-  background-image: url("../image/Beer-Bottle.jpg");
-  background-size: cover;
-  background-position: center center;
-  -webkit-filter:brightness(40%);
-  -ms-filter:brightness(40%);
-  filter: brightness(40%);
-}
 
 .parallax-title{
   font-family: 'Lemonada', cursive;
@@ -197,4 +183,9 @@ box-shadow: 0px 0px 29px 10px rgba(0,0,0,0.92);
 
 #font_parallax{
   width: 100%;
+}
+
+.product{
+  padding: 50px;
+  text-align: justify;
 }
