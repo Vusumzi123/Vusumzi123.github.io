@@ -4,7 +4,7 @@ function setVars(){
       $('#main_logo_container'),
       //$('#scroled_ellems'),
     ],
-    navBar : $('.navbar-default')
+    navBar : $('.navbar-default'),
   }
 };
 
