@@ -5,6 +5,8 @@ function setVars(){
       //$('#scroled_ellems'),
     ],
     navBar : $('.navbar-default'),
+    brandBtn : $('#brand_btn'),
+    periscope : $('#beer_persicope')
   }
 };
 
@@ -24,6 +26,11 @@ function parallax(item, offset) {
 $(document).ready(function() {
   setVars();
   dynamicVars();
+
+  vars.brandBtn.click(
+    function(){
+      $(window).scrollTop(vars.periscope.offset().top);
+  })
 
   if (Dvars.wWidth>770) {
     vars.navBar.css({'position' : 'fixed'});
