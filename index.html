@@ -26,8 +26,11 @@
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script type="text/javascript" src="JavaScript/angular.min.js"></script>
+	<script type="text/javascript" src="JavaScript/vars.js"></script>
+	<script type="text/javascript" src="JavaScript/functions.js"></script>
+	<script type="text/javascript" src="JavaScript/script.js"></script>
 	<script type="text/javascript" src="JavaScript/app.js"></script>
-	<script type="text/javascript" src="JavaScript/newScript.js"></script>
+
 	<!--<script type="text/javascript" src="JavaScript/Script.js"></script>-->
 
 
@@ -54,9 +57,9 @@
 	        </div>
 	        <div class="collapse navbar-collapse" id="myNavbar">
 	          <ul class="nav navbar-nav navbar-right">
-	              <li class="active"><a href="#">Inicio</a></li>
-	              <li><a class="nav-elem" href="#">Nosotros</a></li>
-	              <li><a class="nav-elem" href="#">Contacto</a></li>
+	              <li class="active"><a id="homeNv" >Inicio</a></li>
+	              <li><a id="UsNv" class="nav-elem" >Nosotros</a></li>
+	              <li><a id="contactNv" class="nav-elem" >Contacto</a></li>
 	              <li><a class="nav-elem" href="#">Blog</a></li>
 	          </ul>
 	        </div>
@@ -91,7 +94,7 @@
 			</div>
 	  </div>
 
-		<div class="sectParallax_1 centered_class">
+		<div id="article_2" class="sectParallax_1 centered_class">
 			<div class="row" id="article-row-2">
 
 				<div class="article-container">
@@ -165,7 +168,7 @@
 
 		</div>
 
-		<footer>
+		<footer id="footer">
 			<div class="row" id="footer-row">
 				<a class="col-sm-12" href="#"> <span class="logo-sm"> <img src="image/logo_402.svg" alt="" width="89px"/> </span></a>
 				<div class="article-container">

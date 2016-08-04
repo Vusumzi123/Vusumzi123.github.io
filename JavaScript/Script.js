@@ -1,66 +1,30 @@
-			function setVars(){
-				Vars = {
-					parallaxElems : [
-						document.getElementById('layer_1'),
-						document.getElementById('layer_2')
-					],
-					navBar : document.getElementById('navb'),
-				}
-			};
 
-			function dynamicVars(){
-				Dvars = {
-				hOfset : window.pageYOffset,
-				height : window.innerHeight,
-				widht : window.innerWidth,
+$(document).ready(function() {
 
-				}
-			}
+  setVars();
+  dynamicVars();
 
-			function parallax(item,ofset){
+  buttonClick(vars.brandBtn, vars.pageElems[2]);
+  buttonClick(vars.navElemes[0], vars.pageElems[0]);
+  buttonClick(vars.navElemes[1], vars.pageElems[2]);
+  buttonClick(vars.navElemes[2], vars.pageElems[4]);
 
-				$('#layer_2').css({
-					'transform' : 'translateY(' +Dvars.wHeight/2+ '%)'
-				});
-			}
+  if (Dvars.wWidth>770) {
+    vars.navBar.css({'position' : 'fixed'});
+    $(window).scroll(function() {
 
-			function scrollNav(){
-				if (Dvars.hOfset > 100) {
-					Vars.navBar.className = "navbar navbar-default_2";
-				}else {
-					Vars.navBar.className = "navbar navbar-default";
-				}
-			}
+      dynamicVars();
+      parallax(vars.parallaxElems,2);
+      //parallax(vars.parallaxElems[1],0);
 
-				function parallaxScroll(){
-					parallax(Vars.parallaxElems[0],1);
-					parallax(Vars.parallaxElems[1],2);
-				}
+      if(Dvars.wScroll>125){
+        vars.navBar.addClass('navbar-default_2');
+      }else {
+        vars.navBar.removeClass('navbar-default_2');
+      }
+    });
+  }else {
+    vars.navBar.addClass('navbar-default_2');
+  }
 
-				function scrl(){
-					dynamicVars();
-					scrollNav();
-					parallaxScroll();
-				}
-
-				function res(){
-					dynamicVars();
-					parallaxScroll();
-				}
-
-				function set(){
-					setVars();
-					res();
-					scrl();
-				}
-
-			function main(){
-				set();
-				window.addEventListener("scroll", scrl, false);
-				window.addEventListener("resize", res, true);
-			};
-
-
-			(function(){
-				window.onload = main;
-			})();
+});
