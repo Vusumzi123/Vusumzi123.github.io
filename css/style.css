@@ -221,6 +221,8 @@ box-shadow: 0px 0px 29px 10px rgba(0,0,0,0.92);
 
 footer{
   background-color: #131313;
+  color: white;
+  font-weight: bold;
 }
 
 footer #logo{
@@ -228,7 +230,25 @@ footer #logo{
   font-weight: bold;
   position: static;
   display: block;
+  z-index: 10;
 }
+
+footer a, a:visited{
+  color: white;
+  font-weight: bold;
+}
+
+footer a:hover{
+  color: #d88c26;
+  font-weight: bold;
+}
+
+footer a:active{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 
 
 
@@ -236,4 +256,46 @@ footer #logo{
   max-width: 900px;
   padding: 34px;
   margin: 0 auto;
+}
+
+.fa-facebook, .fa-phone, .fa-twitter{
+  color: #131313;
+}
+
+footer .fa-stack{
+  margin-left: 10px;
+}
+
+#mail-L{
+  padding: 5px 12px;
+  width: 100%;
+  margin-bottom: 12px;
+  color: black;
+}
+
+#suscribe{
+  padding: 5px 12px;
+  background-color: #248DC4;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -moz-border-radius: 3px;
+  display: block;
+  margin-left: auto;
+  margin-bottom: 12px;
+}
+
+.footer-info{
+  color: #6A6A6A;
+}
+
+.disclaimer, #disclaimer{
+  color: #6A6A6A;
+  font-size: 0.8em;
+}
+
+#disclaimer{
+  text-align: justify;
+  display: block;
+  margin: auto;
 }
