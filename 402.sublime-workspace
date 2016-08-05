@@ -1,0 +1,597 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pa",
+				"pageYOffset"
+			],
+			[
+				"di",
+				"displacement"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"i",
+				"image"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"in",
+				"innerHeight"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"tr",
+				"translateY()"
+			],
+			[
+				"to",
+				"top"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"im",
+				"img	Tag"
+			],
+			[
+				"ma",
+				"max-height"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"wi",
+				"window"
+			],
+			[
+				"sty",
+				"style"
+			],
+			[
+				"top",
+				"margin-top"
+			],
+			[
+				"al",
+				"alt	Attr"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"ju",
+				"justify"
+			],
+			[
+				"t",
+				"text-align"
+			],
+			[
+				"s",
+				"s"
+			],
+			[
+				"cen",
+				"centerY"
+			],
+			[
+				"no",
+				"noShadow"
+			],
+			[
+				"center",
+				"centerY"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"inline",
+				"inline-flex"
+			],
+			[
+				"cent",
+				"centerX"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"st",
+				"stFlag"
+			],
+			[
+				"cl",
+				"clearCanvas"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"M",
+				"Math"
+			],
+			[
+				"m",
+				"mY"
+			],
+			[
+				"mX",
+				"mX"
+			],
+			[
+				"mo",
+				"mouseMoveX"
+			],
+			[
+				"mouse",
+				"mouseY"
+			],
+			[
+				"fn",
+				"function"
+			],
+			[
+				"mou",
+				"mouthSize"
+			],
+			[
+				"face",
+				"faceSize"
+			],
+			[
+				"eye",
+				"eyeSize"
+			],
+			[
+				"fac",
+				"faceSize"
+			],
+			[
+				"fa",
+				"faceSize"
+			],
+			[
+				"re",
+				"restoreColor"
+			],
+			[
+				"fc",
+				"fcolorBuffer"
+			],
+			[
+				"color",
+				"colorBuffer"
+			],
+			[
+				"c",
+				"ctx"
+			],
+			[
+				"r",
+				"rv"
+			],
+			[
+				"stro",
+				"stroke"
+			],
+			[
+				"line",
+				"lineTo"
+			],
+			[
+				"fill",
+				"fillStyle"
+			],
+			[
+				"bol",
+				"bolder"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"name",
+				"name"
+			],
+			[
+				"p",
+				"p"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 3793,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 1653,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/navBar.css",
+			"settings":
+			{
+				"buffer_size": 2579,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/DoGee/Documents/Programs/Cerveza remake",
+		"/C/Users/DoGee/Documents/Programs/Cerveza remake/css"
+	],
+	"file_history":
+	[
+		"/C/Users/DoGee/Documents/Programs/Cerveza/Vusumzi123.github.io/index.html",
+		"/C/Users/DoGee/Documents/Programs/Cerveza/Vusumzi123.github.io/css/style.css",
+		"/C/Users/DoGee/Documents/Programs/Graficadora.github.io/css/style.css",
+		"/C/Users/DoGee/Documents/Programs/Graficadora.github.io/index.html",
+		"/C/Users/DoGee/Documents/Programs/Graficadora.github.io/js/head.js",
+		"/C/Users/DoGee/Documents/Programs/Cerveza/Vusumzi123.github.io/css/navBar.css",
+		"/C/Users/DoGee/Documents/Programs/Graficadora.github.io/js/main.js",
+		"/C/Users/DoGee/Documents/Programs/Clock/JavaScript/head.js",
+		"/C/Users/DoGee/Documents/Programs/Clock/JavaScript/clock.js",
+		"/C/Users/DoGee/Documents/Programs/Clock/JavaScript/main.js",
+		"/C/Users/DoGee/Documents/Programs/Cerveceria/css/style.css",
+		"/C/Users/DoGee/Documents/Programs/Cerveceria/JavaScript/app.js",
+		"/C/Users/DoGee/Documents/Programs/Cerveceria/Index.html",
+		"/C/Users/DoGee/Downloads/Adobe Photoshop CS6 13.0.1 Final  Multilanguage (cracked dll) [ChingLiu]/ChingLiu.Notes.nfo",
+		"/C/Users/DoGee/Documents/Programs/Clock/index.html",
+		"/C/Users/DoGee/Documents/Programs/AndroidProjects/MyFirstApp/app/src/main/res/layout/activity_my.xml",
+		"/C/Users/DoGee/Documents/Programs/AngularProy/Index.html",
+		"/C/Users/DoGee/Documents/Programs/AngularProy/app.js",
+		"/C/Users/DoGee/Documents/Programs/Canvas/index.html",
+		"/C/Users/DoGee/Documents/Programs/index.html",
+		"/C/Users/DoGee/Documents/Programs/Canvas/JavaScript/main.js",
+		"/C/Users/DoGee/Documents/Programs/Canvas/JavaScript/head.js",
+		"/C/Users/DoGee/Documents/Programs/Graficadora-2016-06-01/JavaScript/main.js",
+		"/C/Users/DoGee/Downloads/angular.min.js",
+		"/C/Users/DoGee/Documents/Programs/Graficadora-2016-06-01/JavaScript/script.js",
+		"/C/Users/DoGee/Documents/Programs/Graficadora-2016-06-01/index.html",
+		"/C/Users/DoGee/Documents/Programs/Graficadora-2016-06-01/JavaScript/head.js",
+		"/C/Users/DoGee/bower_components/bootstrap/README.md",
+		"/C/Users/DoGee/Documents/NetBeansProjects/MyJsCompyler/script.js",
+		"/C/Users/DoGee/Documents/NetBeansProjects/MyJsCompyler/src/script.js",
+		"/C/Users/DoGee/Documents/NetBeansProjects/MyJsCompyler/src/myjscompyler/script.js",
+		"/F/Mass Effect 1/GAME/patch 1.02+crack/CRACK 102/reloaded.nfo",
+		"/C/xampp/htdocs/FormTest/first.php",
+		"/C/xampp/htdocs/FormTest/myStyle.css",
+		"/C/Users/Vusumzi/Google Drive/JavaGUI/Clase1/clase11/src/Clase11/Main.java",
+		"/C/xampp/htdocs/FormTest/Index.HTML",
+		"/C/xampp/htdocs/FormTest/Index.php",
+		"/C/xampp/htdocs/someFile.php",
+		"/C/xampp/htdocs/someFile.html",
+		"/C/xampp/htdocs/RandomizerPHP.php",
+		"/C/xampp/htdocs/Coin/index.php",
+		"/C/xampp/htdocs/Coin/coinSpin.php",
+		"/C/xampp/htdocs/FormTest/personal.txt",
+		"/C/xampp/apache/conf/httpd.conf",
+		"/C/xampp/htdocs/Form.html",
+		"/c/xampp/php/logs/php_error_log",
+		"/C/xampp/apache/logs/access.log",
+		"/C/xampp/apache/logs/error.log"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"rgba(64, 64, 64, 0.85)",
+			"#404040",
+			"<h1>Cerveceria 402</h1>",
+			" <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js\"></script>",
+			">\n",
+			"background-color: #404040",
+			";\n",
+			"cent",
+			");\n",
+			"red",
+			"video",
+			"mp4",
+			"HOla",
+			"visit",
+			"InitialChatFriendsList"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3793,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1279,
+								1279
+							]
+						],
+						"settings":
+						{
+							"spell_check": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1653,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1254,
+								1254
+							]
+						],
+						"settings":
+						{
+							"spell_check": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1309.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/navBar.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2579,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								529,
+								547
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "402.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 160.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

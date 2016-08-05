@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html ng-app="store">
+<head>
+
+	<meta charset="utf-8" />
+    <!--[if IE ]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <![endif]-->
+
+  <meta name="autor" content="Vusumzi Belmont" />
+	<meta name="description" content="Cerveza artesanal mexicana"/>
+	<meta name="keywords" content="cerveza, beer , 402, cervaza artesanal, cerveceria 402"/>
+	<meta name="languange" content="spanish">
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+	<title>Cerveceria 402</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/3a36ec92ee.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lemonada' rel='stylesheet' type='text/css'>
+
+
+	<link rel="stylesheet" type="text/css" href="css/navBar.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="JavaScript/angular.min.js"></script>
+	<script type="text/javascript" src="JavaScript/app.js"></script>
+	<script type="text/javascript" src="JavaScript/Script.js"></script>
+
+
+</head>
+<body>
+
+
+	<div class="background">
+		<h1 class="hidden">Cerveceria 402</h1>
+	</div>
+
+
+	<div id="view">
+
+			<div id="staticNav">
+				<nav class="navbar navbar-default" id="navb">
+
+					<div class="container-fluid">
+    					<div class="navbar-header">
+    						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        						<span class="icon-bar"></span>
+        						<span class="icon-bar"></span>
+        						<span class="icon-bar"></span>
+      						</button>
+      						<a class="navbar-brand" href="#"> <h1>CERVECERÍA</h1> <img src="image/logo_402.svg" class="navbar-brand" alt="" id="logo"/></a>
+      						<a class="navbar-brand" href="#"></a>
+
+
+    					</div>
+
+    					<div class="collapse navbar-collapse" id="myNavbar">
+
+    						<ul class="nav navbar-nav navbar-right">
+      							<li class="active"><a href="#">Inicio</a></li>
+      							<li><a class="nav-elem" href="#">Nosotros</a></li>
+      							<li><a class="nav-elem" href="#">Contacto</a></li>
+      							<li><a class="nav-elem" href="#">Blog</a></li>
+    						</ul>
+    					</div>
+					</div>
+				</nav>
+			</div>
+
+
+
+
+
+
+
+			<div id="font_parallax">
+					<section id="layer_1" class="layer">
+						<header class="parCont">
+							<div id="main_logo_container" >
+								<div id="sec_logo_container">
+
+								</div>
+
+							</div>
+						</header>
+						<div id="sectParallax_1" class="sectParallax_class">
+							<div class="row" id="article-row">
+								<div id="side-img" class="col-xs-4">
+									<img src="image/Beer-Square.jpg" alt="" class="img-responsive img-circle"/>
+								</div>
+								<article id="about_Article" class="col-xs-8">
+									<h2>Nuestra Cerveza</h2>
+									<h3>¡Nos apasiona!</h3>
+									<div id="deco-line"></div>
+									<p>Somos una cervecería artesanal formada por un grupo de amigos de toda la vida. Para nosotros lo más importante es compartir, y no sabemos de una mejor forma de compartir un momento que con una cerveza en la mano.</p>
+									<p>Cervecería 402 comenzó desde cero y como todo proyecto que inicia de ese modo, tenemos siempre en mente la calidad de nuestros productos, para nosotros la mejor cerveza es la que compartimos con los ‘cuates’ y nada mejor que hacerlo con una cerveza llena de sabor, aroma y calidad para satisfacer tanto a los gustos más exigentes y conocedores, como a los más casuales y aventureros.</p>
+								</article>
+							</div>
+
+						</div>
+
+						<div id="sectParallax_2" class="sectParallax_class">
+							<div>
+								<h1 class="parallax-title">Nuestras Cervezas!</h1>
+							</div>
+						</div>
+
+						<div id="sectParallax_1" class="sectParallax_class">
+							<div class="row" id="article-row">
+								<div id="side-img" class="col-xs-4">
+									<img src="image/Beer-Square.jpg" alt="" class="img-responsive img-circle"/>
+								</div>
+								<article id="about_Article" class="col-xs-8">
+									<h2>Nuestra Cerveza</h2>
+									<h3>¡Nos apasiona la cerveza!</h3>
+									<div id="deco-line"></div>
+									<p>Somos una cervecería artesanal formada por un grupo de amigos de toda la vida, para nosotros lo más importante es compartir, y no sabemos de una mejor forma de compartir un momento que con una cerveza en la mano.</p>
+									<p>Cervecería 402 comenzó desde cero y como todo proyecto que inicia de ese modo, tenemos siempre en mente la calidad de nuestros productos, para nosotros la mejor cerveza es la que compartimos con los ‘cuates’ y nada mejor que hacerlo con una cerveza llena de sabor, aroma y calidad para satisfacer tanto a los gustos más exigentes y conocedores, como a los más casuales y aventureros.</p>
+								</article>
+							</div>
+						</div>
+
+					</section>
+
+
+					<section id="layer_2" class="layer">
+						<header class="parCont">
+							<div id="main_logo_container" >
+									<img src="image/mono_402.svg" alt="" id="main_logo" />
+									<button type="button" name="button" id="brand_btn">Cervezas</button>
+							</div>
+						</header>
+
+						<div class="parCont" id="parallax-img-1">
+							<h1 class="hidden">Cerveceria 402</h1>
+						</div>
+					</section>
+			</div>
+
+	</div>
+
+
+</body>
+</html>

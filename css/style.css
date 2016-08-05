@@ -1,0 +1,301 @@
+
+/*!
+ *  URL: Cerveceria402.mx
+ *  Description: Cerveza artesanal mexicana
+ *  Author: Vusumzi Belmont
+ *  Version: 2.0
+ *  Date : july 2016
+ */
+
+
+@import url("skeleton.css");
+@import url("fonts/fonts.css");
+@import url("navBar.css");
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'introheadr-base', cursive;
+  font-size: 1.1em;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html, body{
+  height: 100%;
+
+}
+
+body{
+	background-color: #262626;
+	font-family: 'Open Sans Condensed', sans-serif;
+  overflow-x: hidden;
+}
+
+
+.background{
+
+  overflow: hidden;
+  position: fixed;
+    height: 100vh;
+    width: 100%;
+
+    background: url("../image/beer_wall_2.jpg") no-repeat center center;
+    background-size: cover;
+    -webkit-filter:brightness(40%);
+    -ms-filter:brightness(40%);
+    filter: brightness(40%);
+
+    z-index: -1;
+}
+
+
+.hiidden{
+  display: none;
+}
+
+.centered_class{
+width: 100%;
+display: -webkit-flex; /* Safari */
+  -webkit-justify-content: center; /* Safari 6.1+ */
+  display: flex;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.sectParallax_1{
+background-color: white;
+min-height: 50vh;
+padding: 30px;
+
+-webkit-box-shadow: 0px 0px 29px 10px rgba(0,0,0,0.92);
+-moz-box-shadow: 0px 0px 29px 10px rgba(0,0,0,0.92);
+box-shadow: 0px 0px 29px 10px rgba(0,0,0,0.92);
+}
+
+
+.parCont{
+  height: 100vh;
+  width: 100%;
+}
+
+.parCont_2{
+  height: 50vh;
+  width: 100%;
+}
+
+#beer_persicope{
+  background: url(../image/Beer-Bottle.jpg) no-repeat center center fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.title-container{
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+}
+
+.article-container{
+  max-width: 800px;
+}
+
+#main_logo_container{
+  border: 0;
+  padding: 0;
+  height: 100%;
+  margin: 0;
+  position: relative;
+
+  display: -webkit-flex; /* Safari */
+    -webkit-justify-content: center; /* Safari 6.1+ */
+    display: flex;
+    justify-content: center;;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+#main_logo{
+    background: url("../image/mono_402.svg") no-repeat center center;
+    background-size: auto;
+    position : relative;
+    margin: 0;
+    margin-bottom: 60px;
+    width: 100%;
+    height: 200px;
+	  padding: 23px;
+	  opacity: 0.87;
+}
+
+#main_logo_container button{
+  color: white;
+  background-color: transparent;
+  position : relative;
+  padding: 12px;
+  padding-left: 26px;
+  padding-right: 26px;
+  font-size: 23px;
+  margin: 0;
+  border: 1px solid white;
+  display: block;
+  margin: 0px auto;
+}
+
+#main_logo_container button:hover{
+  color: #d88c26;
+}
+
+#main_logo_container button:active{
+  outline: none;
+}
+
+#main_logo_container button:focus{
+  outline: none;
+}
+
+#about_Article{
+	padding: 34px;
+	max-width: 650px;
+  text-align: justify;
+}
+
+#about_Article h2{
+  font-weight: bolder;
+}
+
+#about_Article h3{
+  margin-top: -2px;
+  font-size: 1.2em;
+	font-family: 'Lemonada', cursive;
+}
+
+#article-row{
+    max-width: 940px;
+    width: auto;
+}
+
+#article-row #side-img{
+  padding: 14px;
+  display: -webkit-flex; /* Safari */
+    -webkit-justify-content: center; /* Safari 6.1+ */
+    display: flex;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.deco-line{
+  width: 80px;
+  height: 3px;
+  margin-bottom: 12px;
+
+}
+
+#carrot-dl{
+  background-color: #d88c26;
+}
+
+#teal-dl{
+  background-color: #7B9E89;
+}
+
+
+.parallax-title{
+  font-family: 'Lemonada', cursive;
+  color: white;
+  font-size: 2.2em;
+}
+
+#font_parallax{
+  width: 100%;
+}
+
+.product{
+  padding: 10px;
+  text-align: justify;
+}
+
+footer{
+  background-color: #131313;
+  color: white;
+  font-weight: bold;
+}
+
+footer #logo{
+	height: 70px;
+  font-weight: bold;
+  position: static;
+  display: block;
+  z-index: 10;
+}
+
+footer a, a:visited{
+  color: white;
+  font-weight: bold;
+}
+
+footer a:hover{
+  color: #d88c26;
+  font-weight: bold;
+}
+
+footer a:active{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+
+
+#footer-row{
+  max-width: 900px;
+  padding: 34px;
+  margin: 0 auto;
+}
+
+.fa-facebook, .fa-phone, .fa-twitter{
+  color: #131313;
+}
+
+footer .fa-stack{
+  margin-left: 10px;
+}
+
+#mail-L{
+  padding: 5px 12px;
+  width: 100%;
+  margin-bottom: 12px;
+  color: black;
+}
+
+#suscribe{
+  padding: 5px 12px;
+  background-color: #248DC4;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -moz-border-radius: 3px;
+  display: block;
+  margin-left: auto;
+  margin-bottom: 12px;
+}
+
+.footer-info{
+  color: #6A6A6A;
+}
+
+.disclaimer, #disclaimer{
+  color: #6A6A6A;
+  font-size: 0.8em;
+}
+
+#disclaimer{
+  text-align: justify;
+  display: block;
+  margin: auto;
+}
