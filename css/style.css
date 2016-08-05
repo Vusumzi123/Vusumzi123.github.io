@@ -299,3 +299,13 @@ footer .fa-stack{
   display: block;
   margin: auto;
 }
+
+#top-arrow{
+  position: fixed;
+  display: block;
+  text-align: right;
+  margin-top: auto;
+  width: 100%;
+  height: 100%;
+  z-index: 21;
+}

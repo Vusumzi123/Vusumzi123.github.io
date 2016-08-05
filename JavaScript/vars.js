@@ -1,7 +1,7 @@
 function setVars(){
   vars = {
 
-    navElemes :[
+    navElems :[
       $('#homeNv'),
       $('#UsNv'),
       $('#contactNv'),
