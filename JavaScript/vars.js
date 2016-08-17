@@ -13,6 +13,7 @@ function setVars(){
       $('#beer_persicope'),
       $('#article_2'),
       $('#footer'),
+      $('#topButton'),
     ],
 
     parallaxElems : $('#main_logo_container'),
