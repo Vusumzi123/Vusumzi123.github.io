@@ -1,8 +1,0 @@
-@font-face {
-  font-family: 'introheadr-base';
-  src: url('introheadr-base.otf'); /* IE9 Compat Modes */
-  src: url('introheadr-base.otf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('introheadr-base.otf2') format('woff2'), /* Super Modern Browsers */
-       url('introheadr-base.otf') format('woff'), /* Pretty Modern Browsers */
-       url('introheadr-base.otf')  format('truetype'), /* Safari, Android, iOS */
-}
